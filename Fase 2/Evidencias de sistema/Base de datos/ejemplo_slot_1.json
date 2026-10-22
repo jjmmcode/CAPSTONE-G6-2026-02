@@ -1,0 +1,52 @@
+{
+	"saved_at": "2026-10-16T18:42:10",
+	"scene_path": "res://scenes/world/TallerScene.tscn",
+	"player_x": 412.0,
+	"player_stats": {
+		"level": 2,
+		"current_xp": 40,
+		"skill_points": 0,
+		"base_hp": 110,
+		"base_mp": 55,
+		"base_strength": 8,
+		"base_dexterity": 5,
+		"base_defense": 5,
+		"base_stamina": 5,
+		"base_luck": 0,
+		"current_hp": 110,
+		"current_mp": 55,
+		"current_stamina_points": 100,
+		"equipped": [
+			{ "slot": 0, "item": { "path": "res://resources/equipment/bronze_dagger.tres" } },
+			{ "slot": 7, "item": { "path": "res://resources/equipment/hammer_basic.tres" } }
+		]
+	},
+	"inventory": [
+		{ "item": { "path": "res://resources/items/iron_ore.tres" }, "quantity": 3, "slot": 0 },
+		{ "item": { "path": "res://resources/items/copper_ore.tres" }, "quantity": 5, "slot": 1 },
+		{ "item": { "path": "res://resources/items/potion_hp.tres" }, "quantity": 2, "slot": 2 }
+	],
+	"currency": { "total_copper": 135 },
+	"blacksmith": { "current_stage": 0, "current_level": 1, "current_xp": 20 },
+	"game_state": {
+		"edric_accepted_pupil": true,
+		"forge_attempts": 2,
+		"edric_dialogue_stage": 3,
+		"starter_material_granted": true,
+		"first_forge_done": true,
+		"alloy_book_given": false,
+		"seren_revelation_seen": false,
+		"scene_positions": {},
+		"mineral_respawn_at": {},
+		"monster_respawn_at": {},
+		"pending_combat": {}
+	},
+	"tutorials": { "seen": ["controles", "forja"] },
+	"knowledge": {
+		"unlocked": ["hierro_mineral"],
+		"quiz_log": {},
+		"notes": [],
+		"note_counter": 0,
+		"pending_lessons": []
+	}
+}

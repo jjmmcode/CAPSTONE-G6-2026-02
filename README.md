@@ -2,7 +2,7 @@
 
 Repositorio de evidencias del **Proyecto APT (Capstone PTY4614)** del Grupo 6, Ingeniería Informática, DuocUC.
 
-**Anvil of Ambition** es un videojuego 2D de herrería y rol desarrollado en **Godot 4**. El jugador encarna a Aiden, aprendiz de herrero, que forja armas mediante minijuegos de habilidad (temperatura e impacto), recolecta minerales en la mina, comercia en la tienda y enfrenta monstruos en combates por turnos con ventanas de timing.
+**Anvil of Ambition** es un videojuego 2D de herrería y rol desarrollado en **Godot 4.7**. El jugador encarna a Aiden, aprendiz de herrero, que forja armas mediante minijuegos de habilidad (temperatura e impacto), recolecta minerales en la mina, comercia en la tienda y enfrenta monstruos en combates por turnos con ventanas de timing.
 
 ## Integrantes
 
@@ -43,14 +43,17 @@ Los documentos individuales siguen el formato `Apellido_Nombre_<n°>_APT122_<doc
 
 ## Metodología
 
-El proyecto se desarrolla con un enfoque ágil basado en Scrum:
+El proyecto sigue la metodología **en cascada** definida en la Definición del Proyecto APT (1.5): planificación, diseño, implementación, pruebas, corrección y cierre, y presentación.
 
+Dentro de la etapa de implementación, el equipo complementa la cascada con prácticas ágiles:
+
+- **Iteraciones** de una a dos semanas, registradas en el Sprint Backlog.
 - **Product Backlog y Sprint Backlog** en `Fase 2/Evidencias de documentación/`, construidos a partir del tablero Trello y del historial de commits del repositorio del videojuego.
-- **Sprints** de una a dos semanas, con tareas asignadas por integrante en el Trello.
+- **Retrospectivas** al cierre de cada iteración, con acciones y responsables.
 - **Control de versiones** con Git y GitHub: cada funcionalidad se desarrolla en una rama propia y se integra a `main` mediante Pull Request.
 
 ## Tecnologías
 
-- Godot Engine 4 (GDScript)
+- Godot Engine 4.7 (GDScript)
 - Git, GitHub y GitHub Desktop
 - Trello
